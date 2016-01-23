@@ -1,0 +1,13 @@
+Program BoolTest;
+#include( "stdlib.hhf" )
+
+static
+	BoolVar:	boolean;
+	HasClass:	boolean := false;
+	IsClear:	boolean := true;
+
+begin BoolTest;
+
+	stdout.put( BoolVar, nl );
+
+end BoolTest;

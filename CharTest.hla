@@ -1,0 +1,12 @@
+Program CharTest;
+#include( "stdlib.hhf" )
+
+static
+	c: char;
+	LetterA: char := 'A';
+
+begin CharTest;
+
+stdout.put( LetterA, nl );
+
+end CharTest;
