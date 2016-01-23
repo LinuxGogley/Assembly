@@ -1,0 +1,23 @@
+Program DemoVars;
+#include( "stdlib.hhf" )
+
+// Begins variable declaration section
+static
+	// InitDemo & NotInitialized are names of variables to declare
+	// int32 is name of data types for declarations
+	InitDemo:	int32 := 5;
+	NotInitialized: int32;
+
+begin DemoVars;
+
+	// Display the value of the pre-initialized variable:
+	
+	stdout.put( "InitDemo's value is ", InitDemo, nl );
+
+	// Input an integer value from the user and display it:
+
+	stdout.put( "Enter an integer value: ");
+	stdin.get( NotInitialized );
+	stdout.put( "You entered: ", NotInitialized, nl);
+
+end DemoVars;
